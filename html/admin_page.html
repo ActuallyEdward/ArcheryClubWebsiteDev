@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Achery Club Main Page</title>
+
+		<!-- links to the dependent files -->
+		
+	</head>
+
+    <body class="wrapper">
+        <!--Dashboard: same for all pages-->
+        <section class="dashboard">
+            <div class="dashboard">
+                <!--Logo: need resizing in the CSS-->
+                <img width="120rem" src="https://upload.wikimedia.org/wikipedia/commons/2/23/Moon_Bow_and_Arrow.svg">
+                <h1 class="title">Vancouver Archery Club</h1>
+                <ul>
+                    <!--The dashboard should contain a nevigation bar that contains the section of NEWS, EVENTS, LOCATIONS, ABOUT US, SERVICES-->
+                    <!--Technical Details: use inline-block to flaten the display-->
+                    <li><a href="">News</a></li>
+                    <li><a href="./index.html">About Us</a></li>
+                    <li><a href="./events.html">Events</a></li>
+                </ul>
+                <!--Button for the admin login-->
+                <a href="./admin_login.html">Admin Login</a>
+            </div>
+        </section>
+
+        <section class="Admin Management Page">
+            <form action="">
+
+                <label for="Events_Create">Create new Events</label>
+                <input type="date" id="Events_Create" name="Events_Create">
+                <input type="text" id="Events_Create" name="Events_Create">
+                <input type="submit" value="Submit"><br>
+            </form>
+
+            <form action="">
+                <label for="Members_Search_by_Event">Find all members Register in certain events</label>
+                <input type="date" id="Members_Search_by_Event" name="Members_Search_by_Event">
+                <input type="text" id="Members_Search_by_Event" name="Members_Search_by_Event">
+                <input type="submit" value="Submit"><br>
+            </form>
+
+            <form action="">
+                <label for="Events_Search_by_Member">Find all Events Registered by certain members</label>
+                <input type="text" id="Events_Search_by_Member" name="Events_Search_by_Member">
+                <input type="submit" value="Submit"><br>
+
+            </form>
+
+            <form action="">
+                <label for="Max_Events_Registered">Find the event registered by most members</label>
+                <input type="text" id="Max_Events_Registered" name="Max_Events_Registered">
+                <input type="submit" value="Submit"><br>
+            </form>
+
+        </section>
+
+        <!--Footer: same for all pages-->
+        <section class="contact">
+            <div class="address">
+                <!--img for address marker-->
+                <img width = "60rem" src="https://upload.wikimedia.org/wikipedia/commons/8/88/Map_marker.svg" alt="">
+                <!--The actual addresss-->
+                <ul>
+                    <li>xx-xx-xx way</li>
+                    <li>Vancouver BC</li>
+                    <li>Canada</li>
+                </ul>
+            </div>
+
+            <div class="phone-number">
+                <img width = "60rem" src="img/blue-phone-7152.svg" alt="">
+                <p>xxx-xxx-xxxx</p>
+            </div>
+
+            <div class="email">
+                <img width = "60rem" src="img/blue-mail-logo.png" alt="">
+                <p>xxxxxx@gmail.com</p>
+
+            </div>
+
+        </section>
+        
+    </body>
